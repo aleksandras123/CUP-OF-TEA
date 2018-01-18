@@ -1,0 +1,142 @@
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  margin: 0px;
+  background-color: #d4d1d1;
+}
+html
+{
+  font-family: 'Opens Sans',sans-serif;
+  font-size: 1em;
+}
+.cupMenu
+{
+  background-position: center bottom;
+  background-image: url("img/bg.jpg");
+  background-color: #96b011;
+  background-repeat: no-repeat;
+}
+
+
+.container
+{
+  width: 80%;
+  margin: 0 auto;
+}
+.nav ul
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav a
+{
+  text-decoration: none;
+  color: white;
+}
+.inlineItems i
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+.inlineItems p
+{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  color: #fff;
+}
+.icon
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+  width: 150px;
+  padding-left: 15px;
+}
+.inlineItems
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  vertical-align: middle;
+  padding-top: 70px;
+}
+
+ul
+{
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+#back
+{
+  width: 100%;
+  padding-top: 25px;
+}
+
+.corner h3
+{
+  font-family: 'Amaranth', sans-serif;
+  margin: 5px;
+  color: #fff;
+}
+.corner p
+{
+  margin: 5px;
+  color: #fff;
+}
+
+.corner
+{
+  background-color: #96b011;
+  font-family: 'Opens Sans',sans-serif;
+  width: 390px;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  opacity: 0.8;
+}
+
+
+main
+{
+  position: relative;
+}
+
+#heading
+{
+  color: #676767;
+  font-family: 'Amaranth', sans-serif;
+  padding: 30px;
+}
+#white
+{
+  color: white
+}
+section
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+  top: 70px;
+  background-color: white;
+}
+.products h4
+{
+  margin: 0 auto;
+}
+#products
+{
+  text-align: left;
+}
